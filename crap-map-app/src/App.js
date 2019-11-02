@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { MuiThemeProvider } from "@material-ui/core"
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import theme from './utils/theme';
+import { MuiThemeProvider } from '@material-ui/core';
 
 function App() {
   return (
